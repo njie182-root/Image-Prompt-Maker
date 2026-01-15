@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Prompt Maker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>🖼️ Image Prompt Maker</h1>
+  <p>Upload gambar → Prompt AI otomatis ✨</p>
+
+  <input type="file" id="imageInput" accept="image/*">
+
+  <select id="promptType">
+    <option value="realistic">Realistic</option>
+    <option value="anime">Anime</option>
+    <option value="logo">Logo / Brand</option>
+    <option value="poster">Poster</option>
+    <option value="wallpaper">Wallpaper</option>
+  </select>
+
+  <button id="generateBtn">Generate Prompt</button>
+
+  <textarea id="result" placeholder="Prompt akan muncul di sini..."></textarea>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
